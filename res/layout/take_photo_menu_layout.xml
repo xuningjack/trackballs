@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 拍照、选照片、写随笔三个按钮menu -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/ugc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+		
+        <!-- 拍照按钮 -->
+        <ImageView
+            android:id="@+id/btn_take_photo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="62dp"
+            android:layout_marginLeft="@dimen/take_photo_btn_margin"
+            android:src="@drawable/btn_take_photo"
+            android:visibility="gone"/>
+
+        <!-- 浏览照片按钮 -->
+        <ImageView
+            android:id="@+id/btn_photo_direct"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="105dp"
+            android:src="@drawable/btn_photo_direct"
+            android:visibility="gone"/>
+		
+        <!-- 注意要有 layout_alignParentRight="true"后layout_marginRight="@dimen/take_photo_btn_margin"才有用-->
+        <!-- 写随笔按钮 -->
+        <ImageView
+            android:id="@+id/btn_post_suibi"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="62dp"
+            android:layout_marginRight="@dimen/take_photo_btn_margin"
+            android:src="@drawable/btn_post_suibi"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

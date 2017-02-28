@@ -1,0 +1,4 @@
+<resources>
+    <!-- 快拍菜单中左侧和右侧按钮距离屏幕的边距 -->
+    <dimen name="take_photo_btn_margin">75dp</dimen>
+</resources>

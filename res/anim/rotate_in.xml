@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 轨迹球进入透明度动画 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:fillBefore="false" >
+    <alpha
+        android:duration="300"
+        android:fromAlpha="0.0"
+        android:startOffset="100"
+        android:toAlpha="1.0" />
+</set>
